@@ -32,6 +32,7 @@ def obter_resposta(texto: str) -> str:
         ('Como está o tempo em Londres?', 'tempo'): 'Está a chover!',
         ('Qual é a capital de Portugal?', 'capital de Portugal'): 'A capital de Portugal é Lisboa.',
         ('Qual é a capital de Espanha?', 'capital de Espanha'): 'A capital de Espanha é Madrid.',
+        ('Qual é a capital de França?', 'capital de França'): 'A capital de França é Paris.',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
 
