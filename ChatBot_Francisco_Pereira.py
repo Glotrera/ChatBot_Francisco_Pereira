@@ -35,6 +35,7 @@ def obter_resposta(texto: str) -> str:
         ('Qual é a capital de França?', 'capital de França'): 'A capital de França é Paris.',
         ('Qual é o teu desporto favorito?', 'desporto favorito'): 'O meu desporto favorito é o natação.',
         ('Quando é o teu aniversário?', 'aniversário'): 'O meu aniversário é no dia 23 de Julho.',
+        ('Qual é a tua cor favorita?', 'cor favorita'): 'A minha cor favorita é roxo.',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
 
