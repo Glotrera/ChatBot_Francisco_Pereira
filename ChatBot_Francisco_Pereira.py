@@ -28,6 +28,8 @@ def obter_resposta(texto: str) -> str:
         ('que horas são?', 'horas'): f'São: {datetime.now():%H:%M} horas',
         ('que dia é hoje?', 'data'): f'Hoje é dia: {datetime.now():%d-%m-%Y}',
         ('que dia da semana é hoje?', 'dia da semana'): f'Hoje é: {datetime.now():%A}',
+        ('Como está o tempo em Braga?', 'tempo'): 'Está um dia de sol!',
+        ('Como está o tempo em Londres?', 'tempo'): 'Está a chover!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
 
